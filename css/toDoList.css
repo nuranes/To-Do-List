@@ -1,0 +1,101 @@
+#container, #logo{
+    width: 1008px;
+    margin: auto;
+}
+
+/*----mainPageHeader----*/
+#mainPageHeader{
+    height: 4em;
+    background-color: rgb(82, 82, 82);
+    max-width: 100%;
+}/*----end mainPageHeader----*/
+
+/*----978gs----*/
+.col{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+}
+
+.col-12{
+    width: 978px;
+    height: 160px;
+    float: left;
+    background-color: rgb(255, 168, 0);
+}/*----end 978gs----*/
+
+/*----Text----*/
+.txt, h1, li{
+    font-family: arial, helvetica, sans-serif;
+    display: block;
+}
+
+.txt{
+    color: rgb(30, 30, 30); /*Best text-color, not black*/
+    padding-bottom: 15px;
+}
+
+h1{/*Logo and task-txt*/
+    font-size: 1.5em;
+    padding-top: 0.7em;
+    color: rgb(255, 255, 255);
+    margin: auto;
+}
+
+h2{
+    font-size: 1.7em;
+    margin-top: 20px;
+}
+
+p{
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+#logo{
+    padding-left: 15px;
+}
+
+#titleDone{
+    display: none;
+}/*----end Text----*/
+
+/*----infunField----*/
+#inputField{
+    width: 100%;
+    height: 30px;
+    font-size: 1em;
+}/*----end inputField----*/
+
+/*----addBtn----*/
+#addBtn{
+    width: 130px;
+    height: 40px;
+    font-size: 1em;
+    border-radius: 5px;
+    line-height: 30px;
+}/*----end addBtn----*/
+
+/*----New task-box----*/
+li{
+    /*The box*/
+    width: 978px;
+    height: 160px;
+    float: left;
+    margin-bottom: 30px;
+    background-color: rgb(255, 168, 0);
+    /*The text*/
+    color: rgb(255, 255, 255);
+    font-size: 2.7em;
+    text-align: center;
+    line-height: 160px;
+}/*----end New task-box----*/
+
+/*----Actions----*/
+li:hover{
+    background-color: rgb(247, 206, 30);
+}
+
+#addBtn:hover{
+    background-color: rgb(200, 200, 200);
+}/*----end Actions----*/
